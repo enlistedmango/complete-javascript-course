@@ -134,7 +134,7 @@ with
 multiple
 lines`);
 
-*/
+
 
 const age = 15;
 
@@ -154,3 +154,26 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/
+
+// Type Conversaion
+const inputYear = '1991'; // marked as a string
+console.log(Number(inputYear)); // changes string to number
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas')); // we will get back NaN (not a number)
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// Type Coercion
+// JavaScript will convert strings to number automatically
+console.log('I am ' + 23 + ' years old'); // + operator converts numbers to strings
+console.log('I am ' + '23' + ' years old');
+console.log('23' - '10' - 3); // - operator converts strings to numbers
+console.log('23' / '2');
+console.log('23' > '18');
+
+let n = '1' + 1; // 11
+n = n - 1; // 10
+console.log(n);

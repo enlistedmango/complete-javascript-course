@@ -107,6 +107,3 @@ if (johnBMI2 > markBMI2) {
 } else {
     console.log(`Mark's BMI (${markBMI2}) is higher than John's BMI (${johnBMI2})`)
 };
-
-////////////////////
-// Teacher Solution

@@ -41,8 +41,17 @@ console.log(description);
 
 console.log(`${country} is in ${continent} and it's ${population} million people speak ${language}`);
 
+
+//Lecture: Taking Decisions
 if (population > 33000000) {
     console.log(`${country}'s population is above average`)
 } else {
     console.log(`${country}'s population is ${33000000 - population} million below average`)
 };
+
+//Lecture: Type Conversion & Coercion
+console.log('9' - '5'); //95 //Actual Answer was 4 (converted the strings to numbers)
+console.log('19' - '13' + '17'); //1930 //Actual answer was 617 (converted strings to numbers + string)
+console.log('19' - '13' + 17); //191317 //Actual Answer was 23 (converted strings to numbers + number)
+console.log('123' < 57); //true //Actual Answer was false (converted string to number, which is more)
+console.log(5 + 6 + '4' + 9 - 4 - 2); //2442 //Actual Answer was 1143 (I cannot figure this one out)
